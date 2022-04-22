@@ -76,8 +76,31 @@ a{
     width: 80px;
 }
 
-/*.gif-div{
+.wifes{
+    width: 180px;
+    height: 180px;
+    display: block;
+    border: 1px solid #1f2937;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
     
-}*/
+}
 
+.info-image{
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    flex-wrap: wrap;
+    
+}
 
+.info-images p{
+    font-size: 14px;
+    text-align: center;
+    color: #1f2937;
+    width: 180px;
+    padding: 0%;
+}
