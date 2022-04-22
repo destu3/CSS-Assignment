@@ -13,8 +13,9 @@ body{
 header{
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 header h2{
@@ -40,25 +41,24 @@ a{
     color: #e5e7eb;
 }
 
-#title-section{
-    display: flex;
-    justify-content: space-around;
+.title-section-container{
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    height: 350px;
+    gap: 15%;
+    height: 300px;
 }
 
 .title-section{
     width: 400px;
-    height: auto;
-    margin-left: 70px;
-    margin-bottom: 23px;
 }
 
 .title-section h1{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-top: 0px;
 }
 
 .title-section p{
@@ -76,8 +76,8 @@ a{
     width: 80px;
 }
 
-.gif-div{
-    margin-right: 80px;
-}
+/*.gif-div{
+    
+}*/
 
 
