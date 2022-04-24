@@ -77,6 +77,16 @@ a{
     border: 0%;
 }
 
+.cta{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    width: 90px;
+    padding: 5px;
+    margin-top: 10px;
+    border: none;
+ }
+
 .information-section-container{
     padding-bottom: 80px;
 }
