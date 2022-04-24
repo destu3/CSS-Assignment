@@ -86,6 +86,7 @@ a{
     height: 180px;
     display: block;
     border: 1px solid #1f2937;
+    border-radius: 5px;
 }
 
 .info-container{
@@ -118,6 +119,7 @@ a{
 
 .emilia-gif{
     width: 436.02px;
+    border-radius: 5px;
 }
 
 #quote-container{
