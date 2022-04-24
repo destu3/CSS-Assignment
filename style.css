@@ -24,12 +24,6 @@ header{
     width: 436.02px;
 }
 
-@media all and (max-width: 930px) {
-    header, .title-section-container {
-      flex-direction: column;
-    }
-  }
-
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -83,6 +77,10 @@ a{
     border: 0%;
 }
 
+.information-section-container{
+    padding-bottom: 80px;
+}
+
 .wives{
     width: 180px;
     height: 180px;
@@ -120,4 +118,35 @@ a{
 
 .emilia-gif{
     width: 436.02px;
+}
+
+#quote-container{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 422px;
+}
+
+.quote-container blockquote{
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-container{
+    width: 50%;
+}
+
+.quote-container blockquote p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.quote-container blockquote cite{
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bold;
+    align-self: flex-end;
 }
