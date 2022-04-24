@@ -149,4 +149,9 @@ a{
     color: #1f2937;
     font-weight: bold;
     align-self: flex-end;
+    padding-right: 50px;
+}
+
+.signup-container{
+    height: 322px;
 }
