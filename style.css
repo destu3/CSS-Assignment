@@ -31,16 +31,6 @@ header{
     header, .title-section-container {
       flex-direction: column;
     }
-    
-    header{
-        align-items:center;
-        justify-content: center;
-    }
-
-    .logo{
-        text-align: center;
-    }
-
   }
 
 .logo {
@@ -123,4 +113,9 @@ a{
     color: #1f2937;
     width: 180px;
     padding: 0%;
+}
+
+.emilia-gif{
+    width: 436.02px;
+    
 }
