@@ -140,18 +140,45 @@ a{
 .quote-container blockquote p{
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
     text-align: center;
+    color: #1f2937;
 }
 
 .quote-container blockquote cite{
     font-size: 24px;
     color: #1f2937;
-    font-weight: bold;
+    font-weight: bolder;
     align-self: flex-end;
     padding-right: 50px;
 }
 
 .signup-container{
     height: 322px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.signup-section{
+    width: 50%;
+    height: 40%;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cta-section h3{
+    font-weight: bolder;
+}
+
+ .signup-section button{
+     width: 90px;
+     padding: 3px;
+     border: 1px solid #f9faf8;
+     border-radius: 5px;
+     background-color: #3882f6;
+     color: #f9faf8;
+ }
