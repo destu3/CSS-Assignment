@@ -97,6 +97,12 @@ a{
     display: block;
     border: 1px solid #1f2937;
     border-radius: 5px;
+    
+}
+
+.wives:hover{
+    transform: scale(1.05,1.05);
+    margin-bottom: 2px;
 }
 
 .info-container{
@@ -116,7 +122,7 @@ a{
     justify-content: center;
     gap: 65px;
     flex-wrap: wrap;
-    
+    padding: 0 16rem;
 }
 
 .info-images p{
