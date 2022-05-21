@@ -94,15 +94,13 @@ a{
 .wives{
     width: 180px;
     height: 180px;
-    display: block;
     border: 1px solid #1f2937;
     border-radius: 5px;
-    
 }
 
 .wives:hover{
     transform: scale(1.05,1.05);
-    margin-bottom: 2px;
+   
 }
 
 .info-container{
